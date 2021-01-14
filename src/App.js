@@ -47,8 +47,8 @@ function App() {
   return (
     <div className={styles.app}>
       <div className={styles.jsonContainer}>
-        <TextArea label="Master" onChange={setPrev} value={prev} />
         <TextArea label="Working Branch" onChange={setNext} value={next} />
+        <TextArea label="Master" onChange={setPrev} value={prev} />
       </div>
       <button className={styles.button} onClick={handleClick}>
         Diff
